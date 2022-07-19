@@ -503,7 +503,7 @@ p {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    
+    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -948,6 +948,14 @@ summary {
     margin-bottom: var(--card-set-gap);
 
     /* outline: 1px solid blueviolet; */
+}
+.portfolio-card-title {
+    margin-bottom: 4px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .card-item:hover,
